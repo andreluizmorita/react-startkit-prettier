@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 class App extends Component {
+  componentDidMount() {
+    this.state({ teste: 'teste' });
+  }
+
   render() {
     return (
       <div className="App">
